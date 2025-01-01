@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+ width: 200px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 25px;
+    width: 100px;
+    border: 2px solid;
+    border-radius: 6px;
+    font-family: Roboto, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+    padding: 10px;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+.header-links {
+    display: flex;
+    font-size:18px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.content-1 {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+    color: #F9FAF8;
+    padding: 15px;
+}
+
+.content-1-left {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.content-1-left .heading {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.content-1-left .content {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.content-1-left button {
+    margin-top: 10px;
+}
+
+.content-1-right img {
+    height: auto;
+    width: 300px;
+    margin: 10px;
+    border: solid;
+    border-color: transparent;
+    border-width: 2px;
+    border-radius: 12px;
+}
+
+.content-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-2-heading {
+    text-align: center;
+}
+
+.content-2-figures {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content-2-figures img {
+    border: solid;
+    border-width: 2px;
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+.content-3 {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    height: 150px;
+    padding: 75px;
+}
+
+.content-4 {
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: solid;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: transparent;
+}
+
+.content-4-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+}
